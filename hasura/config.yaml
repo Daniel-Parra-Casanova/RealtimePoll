@@ -1,0 +1,8 @@
+version: 3
+endpoint: https://relaxed-pipefish-30.hasura.app
+metadata_directory: metadata
+migrations_directory: migrations
+seeds_directory: seeds
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:3000
